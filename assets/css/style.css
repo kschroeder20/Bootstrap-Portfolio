@@ -43,16 +43,6 @@ html, body{
   padding-bottom: 1rem;
 }
 
-.btn-primary{
-  background-color: #b41f1f;
-  border: 1px solid #eeeeee;
-}
-
-.btn-primary:hover{
-  background-color: #df2f2f;
-  border: 1px solid #eeeeee;
-}
-
 .jumbotron{
   padding: 1rem;
   border-radius: 0;
@@ -75,19 +65,19 @@ html, body{
   margin-blottom: 1rem;
 }
 
-.fa-apple-alt{
+.fa-laptop{
   color: #e54d26;
 }
 
-.fa-dumbbell{
+.fa-database{
   color: #000000;
 }
 
-.fa-fist-raised {
+.fa-globe {
   color: #2163af;
 }
 
-.fa-apple-alt, .fa-dumbbell, .fa-fist-raised{
+.fa-laptop, .fa-database, .fa-globe{
   font-size: 4em;
   margin: 1rem;
 }
@@ -207,6 +197,7 @@ hr.light-100{
 
   #kevin {
     float: right;
+    height: 5rem;
   }
 }
 

@@ -23,7 +23,8 @@
             <nav class="navbar navbar-light bg-light">
                 <span class="navbar-brand mb-0 h1">Kevin Schroeder</span>
             </nav>
-            <div class="collapse navbar-collapse " id="navbarResponsive">
+            <div class ="d-flex justify-content-between">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
@@ -35,426 +36,251 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+                </div>
             </div>
         </div>
     </nav>
 
     <!--- Image -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="topCarouselSlides" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="assets/images/coffee-workspace.jpg" class="d-block w-100" alt="workspace">
                 <div class="carousel-caption">
                     <h1>Kevin Schroeder</h1>
-                    <h3>Asspiring Web Developer</h3>
-                </div>
-        </div>
-    </div>
-
-    <!--- Jumbotron -->
-    <div class="container-fluid">
-        <div class="row jumbotron">
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                <p class="lead">"Today I will do what others won't, so tomorrow I can do what others can't." - Jerry
-                    Rice</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Get Started</button></a>
-            </div>
-            <span id="home">
-        </div>
-    </div>
-
-    <!--- Welcome Section -->
-
-    <div class="container-fluid padding">
-        <div class="row welcome text-center">
-            <div class="col-12">
-                <h1 class="display-4">What Do You Need?</h1>
-            </div>
-            <hr>
-            <div class="col-12">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id feugiat tortor,
-                    condimentum dictum metus. Quisque porta dignissim ante.</p>
-            </div>
-        </div>
-    </div>
-    </span>
-
-    <!--- Three Column Section -->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <i class="fas fa-laptop"></i>
-                <h3>Front-End Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin faucibus leo, non
-                    consequat diam. Proin leo metus, tempor eget rhoncus at, consequat sit amet nisi. Morbi eget turpis
-                    urna.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <i class="fas fa-database"></i>
-                <h3>Backend Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin faucibus leo, non
-                    consequat diam. Proin leo metus, tempor eget rhoncus at, consequat sit amet nisi. Morbi eget turpis
-                    urna.</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fas fa-globe"></i>
-                <h3>Full Stack Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin faucibus leo, non
-                    consequat diam. Proin leo metus, tempor eget rhoncus at, consequat sit amet nisi. Morbi eget turpis
-                    urna.</p>
-            </div>
-        </div>
-        <hr class="my-4">
-    </div>
-
-    <!--- Two Column Section -->
-    <span id="about">
-        <div class="container-fluid padding">
-            <div class="row padding">
-                <div class="col-lg-6">
-                    <h2>About Me</h2>
-                    <p>I am a NASM Certified Personal Trainer. My passion is to help transform peoples' lives through
-                        fitness and healthy lifestyle changes. With 5 years of education, and over a year of hands-on
-                        personal training, I have coached many clients through some of the most impactful fitness
-                        journies of their lives. My specialties include:</p>
-                    <ul id="specialties">
-                        <li>Weight loss</li>
-                        <li>Muscle gain</li>
-                        <li>Joint mobility</li>
-                        <li>Sports performance</li>
-                        <li>Powerlifting</li>
-                        <li>At-home training (no equipment)</li>
-                        <li>Nutrition consulting</li>
-                    </ul>
-                    <p>My online personal training service provides a customized workout and nutrition plan aimed at
-                        reaching your goals as quickly as possible. In addition, I will be fully accessible through
-                        instant message, phone, and Skype for any and all day-to-day questions.</p>
-                    <p>Oh yeah... and for a fraction of the price! Fill out the contact form at the bottom to get
-                        started today!</p>
-                    <br>
-                    <a href="#" class="btn btn-primary">Learn More</a>
-                </div>
-                <div class="col-lg-6">
-                    <img src="assets/images/kevinschroeder-portfolio.jpg" class="img-fluid" id="kevin">
+                    <h3>Aspiring Web Developer</h3>
                 </div>
             </div>
         </div>
-    </span>
 
-    <hr class="my-4">
-    <!--- Fixed background -->
-    <figure>
-        <div class="fixed-wrap">
-            <div id="fixed"></div>
-        </div>
-    </figure>
-
-    <!--- Calorie Calculator -->
-    <span id="calorieCalculator">
-        <button class="hidden" data-toggle="collapse" data-target="#calculator">Click To See Your Daily Calorie
-            Expenditure
-        </button>
-        <div id="calculator" class="collapse">
-            <div class="container-fluid padding">
-                <p>Height in inches (12 inches=1 foot) : <input id="height" type="number" required></p>
-                <p>Weight in pounds : <input id="weight" type="number" required></p>
-                <p>Age : <input id="age" type="number" required></p>
-                <p>Gender : <input id="male" type="radio" name="sex"> Male <input id="female" type="radio" name="sex">
-                    Female </p>
-                <p> Activity :
-                    <ul>
-                        <li><input id="none" type="radio" name="activity"> Little to no excercise </li>
-                        <li><input id="light" type="radio" name="activity"> Light exercise (1-3 days/week) </li>
-                        <li><input id="moderate" type="radio" name="activity"> Moderate exercise (3-5 days/week) </li>
-                        <li><input id="heavy" type="radio" name="activity"> Heavy exercise (6-7 days/week) </li>
-                        <li><input id="very" type="radio" name="activity"> Very heavy exercise (2 times/day) </li>
-                    </ul>
-                </p>
-
-                <p>Calories You Burn per Day: <span id="totalCals"></span> </p>
-                <button onclick="calsPerDay()">Calculate</button>
-                <button onclick="reset()">Reset</button>
-
-                <script>
-                    function calsPerDay() {
-                        function find(id) { return document.getElementById(id) }
-
-                        var age = find("age").value
-                        var height = find("height").value * 2.54
-                        var weight = find("weight").value / 2.2
-                        var result = 0
-
-                        if (find("none").checked) {
-                            var activity = 1.2
-                        } else if (find("light").checked) {
-                            var activity = 1.35
-                        } else if (find("moderate").checked) {
-                            var activity = 1.55
-                        } else if (find("heavy").checked) {
-                            var activity = 1.725
-                        } else if (find("very").checked) {
-                            var activity = 1.9
-                        } else {
-                            var activity = 1.2
-                        }
-
-                        if (find("male").checked)
-                            result = (66.47 + (13.75 * weight) + (5.0 * height - (6.75 * age))) * activity
-                        else if (find("female").checked)
-                            result = (665.09 + (9.56 * weight) + (1.84 * height - (4.67 * age))) * activity
-
-                        find("totalCals").innerHTML = Math.round(result)
-                    }
-
-                    function reset() {
-                        function find(id) { return document.getElementById(id) }
-                        find("height").value = ""
-                        find("weight").value = ""
-                        find("age").value = ""
-                        find("male").checked = false
-                        find("female").checked = false
-                        find("none").checked = false
-                        find("light").checked = false
-                        find("moderate").checked = false
-                        find("very").checked = false
-                        find("heavy").checked = false
-                    } 
-                </script>
-                <hr class="my-4">
+        <!--- Jumbotron -->
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 text-center">
+                    <p class="lead">“Any fool can write code that a computer can understand. Good programmers write code
+                        that humans can understand.” - Martin Fowler</p>
+                </div>
+                <span id="home">
             </div>
         </div>
-    </span>
 
-    <!--- FAQ -->
-    <span id="faq">
+        <!--- Services -->
+
         <div class="container-fluid padding">
             <div class="row welcome text-center">
                 <div class="col-12">
-                    <h1 class="display-4">Frequently Asked Questions</h1>
+                    <h1 class="display-4">What Do You Need?</h1>
                 </div>
                 <hr>
-            </div>
-        </div>
-
-        <!--- Cards -->
-        <div id="accordion">
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
-                            aria-expanded="true" aria-controls="collapseOne">
-                            Why should I choose an online trainer?
-                        </button>
-                    </h5>
-                </div>
-
-                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        Though there are many reasons why you would choose an online personal trainer rather than an
-                        in-person, the top reasons
-                        that I hear from clients are the affordability, the ability to reach results on their own
-                        schedules, the ability to
-                        message a personal trainer with any question at any time, and the frequent motivational messages
-                        received by the
-                        trainer.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                            aria-expanded="false" aria-controls="collapseTwo">
-                            Can I live anywhere?
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                        Yes! A huge benefit of online personal training is that you can live anywhere and workout
-                        anywhere with whatever
-                        equipment that you have access to. You will have a fully customizable workout schedule designed
-                        to accomplish your
-                        fitness goals no matter where you live.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                            aria-expanded="false" aria-controls="collapseThree">
-                            How will I recieve my workouts?
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-                        Once you sign up with Coach Kevin Fitness, you will receive a link to our Trainerize profile.
-                        Trainerize is a software
-                        on both desktop and mobile app that I will use to give you a full workout plan. You will be able
-                        to log in and see a
-                        calendar that shows all of your workouts scheduled. Once you click on a workout, a rundown of
-                        the exercises, goals,
-                        reps, sets, and rest times will pop up. There will be a video of each exercise within the
-                        workout so that you will know
-                        exactly how to perform the exercise with perfect form. When you complete an exercise, you will
-                        be able to input and
-                        track your progress.
-
-                        The Trainerize software will also allow you to share your daily calories consumption, body
-                        weight and progress photos
-                        with me so that we can get you to your goals even faster! In return, I will be able to
-                        frequently update your workouts
-                        in order to adapt to your progress and give you frequent nutrition advice and motivation for
-                        when you are outside the
-                        gym!
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFour">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                            aria-expanded="false" aria-controls="collapseFour">
-                            How do I know you are not a robot?
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                    <div class="card-body">
-                        I want to make sure that you know that you are not on this fitness journey alone. We will
-                        frequently contact each other
-                        via Skype, text, and/or phone call to make sure that you are getting all of the personal
-                        relationship benefits of a
-                        personal trainer.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingFive">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
-                            aria-expanded="false" aria-controls="collapseFive">
-                            What's the price?
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                    <div class="card-body">
-                        Another one of the biggest benefits of having an online personal trainer is affordability. My
-                        pricing plan is simple:
-                        $150 per month or $400 for 3 months.
-
-                        With your subscription, you will get a fully personalized workout plan for up to 7 workouts per
-                        week, suggestions for
-                        what you should do on your non-workout days, the ability to message me anytime with your
-                        health/fitness related
-                        questions, and frequent motivation from me to help kickstart your journey.
-                    </div>
+                <div class="col-12">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id feugiat tortor,
+                        condimentum dictum metus. Quisque porta dignissim ante.</p>
                 </div>
             </div>
         </div>
-    </span>
-    <br>
-    <hr class="my-4">
+        </span>
 
-
-    <!--- Two Column Section -->
-    <span id="contact">
-        <div class="container-fluid padding col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2">
-            <div class="row padding">
-                <div>
-                    <form class="center_div">
-                        <div class="form-row container-fluid center_div">
-                            <div class="form-group container-fluid col-md-6 col-lg-6 center_div">
-                                <label for="firstName">First Name</label>
-                                <input type="text" class="form-control" id="firstNameInput" placeholder="First Name">
-                            </div>
-                            <div class="form-group container-fluid col-md-6 col-lg-6 center_div">
-                                <label for="lastName">Last Name</label>
-                                <input type="text" class="form-control" id="lastNameInput" placeholder="Last Name">
-                            </div>
-                        </div>
-                        <div class="form-group container-fluid center_div">
-                            <label for="emailAddress">Email address</label>
-                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group container-fluid center_div">
-                            <label for="interest">I am interested in</label>
-                            <select class="form-control" id="interestSelected">
-                                <option>Online Personal Training</option>
-                                <option>Nutrition Coaching</option>
-                                <option>Online Personal Training and Nutrition Coaching</option>
-                            </select>
-                        </div>
-                        <div class="form-group container-fluid center_div">
-                            <label for="textArea">What are your goals?</label>
-                            <textarea class="form-control" id="textAreaInput" rows="3"></textarea>
-                        </div>
-                    </form>
+        <!--- Three Column Section -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Front-End Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin faucibus leo, non
+                        consequat diam. Proin leo metus, tempor eget rhoncus at, consequat sit amet nisi. Morbi eget
+                        turpis
+                        urna.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-database"></i>
+                    <h3>Backend Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin faucibus leo, non
+                        consequat diam. Proin leo metus, tempor eget rhoncus at, consequat sit amet nisi. Morbi eget
+                        turpis
+                        urna.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-globe"></i>
+                    <h3>Full Stack Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin faucibus leo, non
+                        consequat diam. Proin leo metus, tempor eget rhoncus at, consequat sit amet nisi. Morbi eget
+                        turpis
+                        urna.</p>
                 </div>
             </div>
             <hr class="my-4">
         </div>
-    </span>
 
-    <!--- Connect -->
-    <div class="container-fluid padding">
-        <div class="row text-center padding">
-            <div class="col-12">
-                <h2>Connect</h2>
-            </div>
-            <div class="col-12 social padding">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </div>
+        <!--- Two Column Section -->
+        <span id="about">
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">About Me</h1>
+                    </div>
+                    <hr>
+                </div>
+                    <div class="row col-lg-12">
+                        <div class="col-sm padding d-flex justify-content-center">
+                        <img class="kevin " src="assets/images/kevinschroeder-portfolio.jpg"
+                            alt="Generic placeholder image">
+                        </div>
+                        <div class="col-sm padding">
+                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                            sollicitudin. Cras purus odio,
+                            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                            vulputate fringilla. Donec
+                            lacinia congue felis in faucibus.</p>
+                        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                            natoque penatibus et
+                            magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        </div>
+                    </div>
+                    
 
-    <!--- Footer -->
-    <footer>
+                    
+                
+                <hr class="my-4">
+            </div>
+
+        </span>
+
+
+
+        <!--- Portfolio -->
         <div class="container-fluid padding">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <img src="change">
-                    <hr class="light">
-                    <p>555-555-5555</p>
-                    <p>email@myemail.com</p>
-                    <p>100 Street Name</p>
-                    <p> City, State, 000000</p>
-                </div>
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Our Hours</h5>
-                    <hr class="light">
-                    <p>Monday: 9am - 5pm</p>
-                    <p>Saturday: 10am - 4pm</p>
-                    <p>Sunday: Closed</p>
-                </div>
-
-                <div class="col-md-4">
-                    <hr class="light">
-                    <h5>Service Areas</h5>
-                    <hr class="light">
-                    <p> City, State, 000000</p>
-                    <p> City, State, 000000</p>
-                    <p> City, State, 000000</p>
-                </div>
+            <div class="row welcome text-center">
 
                 <div class="col-12">
-                    <hr class="light-100">
-                    <h5>&copy; schroederfitness.com</h5>
+                    <h1 class="display-4">Portfolio</h1>
                 </div>
+                <hr>
+                <div id="carouselControls" class="carousel slide col-lg-12" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/sample-project-1.jpg" alt="First project">
+                            <div class="carousel-caption ">
+                                <h5>My First Project</h5>
+                                <p class="d-none d-md-block">Explanation</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/sample-project-2.jpg" alt="Second project">
+                            <div class="carousel-caption">
+                                <h5>My Second Project</h5>
+                                <p class="d-none d-md-block">Explanation</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/sample-project-3.jpg" alt="Third project">
+                            <div class="carousel-caption">
+                                <h5>My Third Project</h5>
+                                <p class="d-none d-md-block">Explanation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <hr class="my-4">
+        </div>
 
+        <!--- Two Column Section -->
+        <span id="contact">
+            <div class="container-fluid padding">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <h1 class="display-4">Contact Me</h1>
+                    </div>
+                    <hr>
+                </div>
+                <div class="container-fluid col-lg-4 col-md-6 col-sm-8">
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <textarea class="form-control" id="formControlTextarea1" rows="4" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </span>
+
+        <!--- Connect -->
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Connect</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
         </div>
-    </footer>
+
+        <!--- Footer -->
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="change">
+                        <hr class="light">
+                        <p>555-555-5555</p>
+                        <p>email@myemail.com</p>
+                        <p>100 Street Name</p>
+                        <p> City, State, 000000</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our Hours</h5>
+                        <hr class="light">
+                        <p>Monday: 9am - 5pm</p>
+                        <p>Saturday: 10am - 4pm</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Service Areas</h5>
+                        <hr class="light">
+                        <p> City, State, 000000</p>
+                        <p> City, State, 000000</p>
+                        <p> City, State, 000000</p>
+                    </div>
+
+                    <div class="col-12">
+                        <hr class="light-100">
+                        <h5>&copy; schroederfitness.com</h5>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
 
 
 

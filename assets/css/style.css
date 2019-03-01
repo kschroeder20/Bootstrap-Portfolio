@@ -17,7 +17,11 @@ html, body{
 
 .navbar-nav li{
   padding-right: 20px;
-  font-size: 25px;
+  font-size: 15px;
+}
+
+.first-nav-item{
+  padding-left: 20px;
 }
 
 #topCarouselSlide{
@@ -26,21 +30,21 @@ html, body{
 
 .carousel-inner img{
   width: 100%;
+  height: 700px;
+}
+.carousel-item img{
   height: 600px;
 }
 
 .carousel-caption {
   position: absolute;
-  top: 60%;
+  top: 50%;
   transform: translateY(-15%);
 }
 
-.my-info {
-  margin-top: -10px;
-}
-
 .carousel-caption h1{
-  font-size: 500%;
+  font-size: 450%;
+  font-weight: 500;
   text-transform: uppercase;
   text-shadow: 1px 1px 10px #000000;
 }
@@ -65,9 +69,6 @@ html, body{
   text-shadow: 1px 1px 10px #000000;
   padding-bottom: 1rem;
   transform: translateY(210%);
-}
-#formControlTextarea1{
-  transform: translateY(-20%);
 }
 .jumbotron{
   padding: 1rem;
@@ -108,15 +109,8 @@ html, body{
   margin: 1rem;
 }
 
-
-.card .btn{
-  color: #3f3f3f;
-  text-decoration: none;
-}
-
-.card .btn:hover{
-  color: #df2f2f;
-  text-decoration: none;
+#formControlTextarea1{
+  transform: translateY(-20%);
 }
 
 
@@ -159,6 +153,10 @@ footer{
   padding-top: 2rem;
 }
 
+.my-info {
+  margin-top: -10px;
+}
+
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
@@ -186,8 +184,8 @@ hr.light-100{
   }
   }
 @media (max-width: 768px) {
-.carousel-caption {
-  top: 65%;
+  .carousel-caption {
+  top: 50%;
 }
 
 .carousel-caption h1{
@@ -219,9 +217,9 @@ hr.light-100{
 
 
 @media (max-width: 576px) {
-.carousel-caption, 
+  .carousel-caption, 
 .carousel-caption h5{
-  top: 65%;
+  top: 50%;
 }
 
 .carousel-caption h3{
@@ -236,7 +234,7 @@ hr.light-100{
   font-size: 2em;
   padding: .7rem;
 }
-
+}
 
 
 

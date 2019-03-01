@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -19,27 +20,26 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <nav class="navbar navbar-light bg-light">
-                <span class="navbar-brand mb-0 logo">Kevin Schroeder</span>
-            </nav>
-            <div class="d-flex justify-content-between">
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container">
+            <a class="navbar-brand logo">Kevin Schroeder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml auto">
+                    <li class="nav-item first-nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -69,6 +69,7 @@
 
         <!--- Services -->
 
+        <div id="section-2">
         <div class="container-fluid padding">
             <div class="row welcome text-center">
                 <div class="col-12">
@@ -81,10 +82,10 @@
                 </div>
             </div>
         </div>
-        
+
 
         <!--- Three Column Section -->
-        <div class="container-fluid padding">
+        <div class="container-fluid padding service-info">
             <div class="row text-center padding">
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class="fas fa-laptop"></i>
@@ -114,42 +115,45 @@
             <span id="about"></span>
             <hr class="my-4">
         </div>
+        </div>
 
         <!--- Two Column Section -->
-        
-            <div class="container col-12 padding">
-                <div class="row text-center welcome">
-                    <div class="col-12">
-                        <h1 class="display-4">About Me</h1>
-                    </div>
-                    <hr>
+
+        <div id="section-3">
+        <div class="container col-12 padding">
+            <div class="row text-center welcome">
+                <div class="col-12">
+                    <h1 class="display-4">About Me</h1>
                 </div>
-
-                <div class="row col-md-10 offset-md-1">
-                    <div class="col-sm padding d-flex justify-content-center">
-                        <img class="kevin img-responsive" src="assets/images/kevinschroeder-portfolio.jpg"
-                            alt="Generic placeholder image">
-                    </div>
-                    <div class="col-sm padding">
-                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                            sollicitudin. Cras purus odio,
-                            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
-                            vulputate fringilla. Donec
-                            lacinia congue felis in faucibus.</p>
-                        <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
-                            natoque penatibus et
-                            magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    </div>
-                </div>
-                <span id="portfolio"></span>
-
-
-
-
-                <hr class="my-4">
+                <hr>
             </div>
 
-        
+            <div class="row col-md-10 offset-md-1">
+                <div class="col-sm padding d-flex justify-content-center">
+                    <img class="kevin img-responsive" src="assets/images/kevinschroeder-portfolio.jpg"
+                        alt="Generic placeholder image">
+                </div>
+                <div class="col-sm padding">
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                        sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                        vulputate fringilla. Donec
+                        lacinia congue felis in faucibus.</p>
+                    <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                        natoque penatibus et
+                        magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+            </div>
+            <span id="portfolio"></span>
+
+
+
+
+            <hr class="my-4">
+        </div>
+        </div>
+
+
 
 
 
@@ -200,40 +204,40 @@
         </div>
 
         <!--- Two Column Section -->
-        
-            <div class="container-fluid padding">
-                <div class="row welcome text-center">
-                    <div class="col-12">
-                        <h1 class="display-4">Contact Me</h1>
-                    </div>
-                    <hr>
-                </div>
-                <div class="container-fluid col-lg-6 col-md-8 col-sm-8">
-                    <form>
-                        <div class="form-row padding" id="contact-name">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="form-group row padding">
-                            <div class="col-sm-12">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="form-group row padding">
-                            <div class="col-sm-12">
-                                <textarea class="form-control" id="formControlTextarea1" rows="4"
-                                    placeholder="Message"></textarea>
-                            </div>
-                        </div>
 
-                    </form>
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Contact Me</h1>
                 </div>
+                <hr>
             </div>
-      
+            <div class="container-fluid col-lg-6 col-md-8 col-sm-8">
+                <form>
+                    <div class="form-row padding" id="contact-name">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group row padding">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row padding">
+                        <div class="col-sm-12">
+                            <textarea class="form-control" id="formControlTextarea1" rows="4"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
 
         <!--- Connect -->
         <div class="container-fluid padding">
@@ -266,6 +270,67 @@
             </div>
         </footer>
 
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.navbar', {
+                duration: 2000,
+                origin: 'bottom'
+            });
+            sr.reveal('#topCarouselSlide', {
+                duration: 2000,
+                origin: 'top',
+                distance: '300px'
+            });
+            sr.reveal('.carousel-caption h1,.carousel-caption h3', {
+                    duration: 3000,
+                    origin: 'top',
+                    distance: '300px'
+                });
+            sr.reveal('.lead', {
+                    duration: 2000,
+                    origin: 'bottom',
+                     delay: 1000
+                });
+
+            sr.reveal('#section-2 .welcome, .service-info h1, .service-info i', {
+                    duration: 2000,
+                    origin: 'bottom',
+                    distance: '300px',
+                    viewFactor: 0.5
+
+                });
+            sr.reveal('.service-info p, .service-info h3', {
+                    duration: 3000,
+                    origin: 'left',
+                    distance: '300px',
+                    delay: 400,
+                    viewFactor: 0.4
+
+                });
+            
+        </script>
+
+       <script>
+        $(function () {
+            // Smooth Scrolling
+            $('a[href*="#"]:not([href="#"])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+            
 
 
 </body>

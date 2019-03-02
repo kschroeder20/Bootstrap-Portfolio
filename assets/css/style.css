@@ -184,6 +184,10 @@ hr.light-100{
   }
   }
 @media (max-width: 768px) {
+  .first-nav-item{
+  padding-left: 0px;
+}
+  
   .carousel-caption {
   top: 50%;
 }
@@ -217,7 +221,11 @@ hr.light-100{
 
 
 @media (max-width: 576px) {
-  .carousel-caption, 
+.first-nav-item{
+  padding-left: 0px;
+}
+
+.carousel-caption, 
 .carousel-caption h5{
   top: 50%;
 }

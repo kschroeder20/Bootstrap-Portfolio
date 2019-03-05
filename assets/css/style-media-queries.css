@@ -28,9 +28,13 @@
   padding-left: 0px;
 }
 
-.carousel-caption h5,
-.carousel-caption h4{
-  top: 50%;
+.carousel-caption h5{
+  transform: translateY(150%);
+  font-size: 150%;
+}
+.carousel-caption p{
+  font-size: 75%;
+  transform: translateY(210%);
 }
 
 .carousel-caption h3{

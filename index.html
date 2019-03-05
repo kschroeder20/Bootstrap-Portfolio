@@ -48,7 +48,7 @@
 <body class="container-fluid">
     <div class="row hero-image">
         <div class="carousel-caption d-md-block" id="hero-text">
-            <br><br><br>
+            <br><br><br><br>
             <h1 class="display-4">I am Kevin Schroeder</h1>
             <h4>And I'm a Web Developer</h4>
         </div>
@@ -153,14 +153,16 @@
                 </div>
 
                 <div class="carousel-item">
-                    <img class="d-block w-100 portfolio-img" src="assets/images/sample-project-2.jpg" alt="Second project">
+                    <img class="d-block w-100 portfolio-img" src="assets/images/sample-project-2.jpg"
+                        alt="Second project">
                     <div class="carousel-caption d-md-block">
                         <h5>Project #2</h5>
                         <p>Explanation</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 portfolio-img" src="assets/images/sample-project-3.jpg" alt="Third project">
+                    <img class="d-block w-100 portfolio-img" src="assets/images/sample-project-3.jpg"
+                        alt="Third project">
                     <div class="carousel-caption d-md-block">
                         <h5>Project #3</h5>
                         <p>Explanation</p>
@@ -281,6 +283,7 @@
         duration: 1000,
         origin: 'bottom',
         distance: '300px',
+        viewFactor: 0.1
 
 
     });
@@ -295,7 +298,8 @@
     sr.reveal('.about-me', {
         duration: 1000,
         origin: 'bottom',
-        delay: 400
+        delay: 400,
+        viewFactor: 0.1
 
 
     });

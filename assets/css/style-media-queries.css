@@ -18,14 +18,16 @@
     font-size: 2.5em;
     padding: 1.2rem;
   }
-
-  
 }
 
 
 @media (max-width: 576px) {
 .first-nav-item{
   padding-left: 0px;
+}
+
+.carousel-caption h1{
+  font-size: 300%;
 }
 
 .carousel-caption h5{
@@ -42,7 +44,7 @@
 }
 
 .display-4{
-  font-size: 300%;
+  font-size: 250%;
 }
 
 .social a{

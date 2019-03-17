@@ -3,6 +3,10 @@
     font-size: 4em;
     padding: 2rem;
   }
+  .kevin {
+    max-width: auto;
+    height: auto;
+  }
 
   }
 @media (max-width: 768px) {
@@ -13,17 +17,46 @@
 .display-4{
   font-size: 300%;
 }
+.kevin {
+  max-width: auto;
+  height: auto;
+}
 
  .social a{
     font-size: 2.5em;
     padding: 1.2rem;
   }
+  .project1 p {
+    color: white;
+    background: black;
+    font-size: 75%;
+    font-weight: 500;
+    transform: translateY(-50%);
+
+  }
+
+  .project1 h5 {
+    color: white;
+    background: black;
+    font-size: 125%;
+    font-weight: 500;
+    transform: translateY(0%);
+  }
+  .kevin{
+    max-width:100%;
+    height:auto;
+  }
 }
 
 
 @media (max-width: 576px) {
-.first-nav-item{
+
+  .first-nav-item{
   padding-left: 0px;
+}
+.kevin{
+max-width: auto;
+height: auto;
 }
 
 .carousel-caption h1{

@@ -12,7 +12,6 @@
 .carousel-caption h5{
   font-size: 200%;
   font-weight: 500;
-  color: white;
   padding-bottom: 1rem;
   
 }
@@ -21,8 +20,6 @@
   font-size: 100%;
   font-weight: 500;
   padding-bottom: 1rem;
-  color: white;
-  
 }
 .project1{
   background: black;
@@ -39,6 +36,22 @@ transform: translateY(-20%);
 .project1 h5 {
   color: white;
   background: black;
+  font-size: 200%;
+  font-weight: 500;
+  transform: translateY(0%);
+}
+.project2 p {
+  color: black;
+  background: white;
+  font-size: 100%;
+  font-weight: 500;
+  transform: translateY(-20%);
+
+}
+
+.project2 h5 {
+  color: black;
+  background: white;
   font-size: 200%;
   font-weight: 500;
   transform: translateY(0%);

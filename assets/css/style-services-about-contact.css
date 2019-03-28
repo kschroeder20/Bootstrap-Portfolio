@@ -21,35 +21,32 @@
   font-weight: 500;
   padding-bottom: 1rem;
 }
-.project1{
-  background: black;
-  
-}
-.project1 p{
-color: white;
-background: black;
-font-size: 100%;
-font-weight: 500;
-transform: translateY(-20%);
 
+.project1 p,
+.project2 p {
+  color: white;
+  background: black;
+  font-size: 100%;
+  font-weight: 500;
+  transform: translateY(0%);
 }
-.project1 h5 {
+.project1 h5,
+.project2 h5 {
   color: white;
   background: black;
   font-size: 200%;
   font-weight: 500;
   transform: translateY(0%);
 }
-.project2 p {
+
+.project3 p {
   color: black;
   background: white;
   font-size: 100%;
   font-weight: 500;
-  transform: translateY(-20%);
-
+  transform: translateY(0%);
 }
-
-.project2 h5 {
+.project3 h5 {
   color: black;
   background: white;
   font-size: 200%;
@@ -58,7 +55,6 @@ transform: translateY(-20%);
 }
 
 .portfolio-img{
-  height: 200%;
   width: 100%;
 }
 

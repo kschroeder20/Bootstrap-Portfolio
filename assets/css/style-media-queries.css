@@ -26,7 +26,8 @@
     font-size: 2.5em;
     padding: 1.2rem;
   }
-  .project1 p {
+  .project1 p,
+  .project2 p {
     color: white;
     background: black;
     font-size: 75%;
@@ -35,13 +36,36 @@
 
   }
 
-  .project1 h5 {
+  .project1 h5,
+  .project2 h5 {
     color: white;
     background: black;
     font-size: 125%;
     font-weight: 500;
     transform: translateY(0%);
   }
+
+  .project3 p {
+    color: black;
+    background: white;
+    font-size: 75%;
+    font-weight: 500;
+    transform: translateY(-50%);
+
+  }
+  .project3 h5 {
+    color: black;
+    background: white;
+    font-size: 125%;
+    font-weight: 500;
+    transform: translateY(0%);
+  }
+
+
+
+
+
+
   .kevin{
     max-width:100%;
     height:auto;

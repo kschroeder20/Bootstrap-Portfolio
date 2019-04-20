@@ -8,7 +8,7 @@
   transform: translateY(-15%);
 
 }
-/*Use as placeholder until I get more projects*/
+/* Use as placeholder until I get more projects
 .carousel-caption h5{
   font-size: 200%;
   font-weight: 500;
@@ -16,24 +16,24 @@
   
 }
 /*Use as placeholder until I get more projects*/
-.carousel-caption p{
+/* .carousel-caption p{
   font-size: 100%;
   font-weight: 500;
   padding-bottom: 1rem;
 }
 
 .project1 p,
-.project2 p {
+.project2 p,
+.project4 p {
   color: white;
-  background: black;
   font-size: 100%;
   font-weight: 500;
   transform: translateY(0%);
 }
 .project1 h5,
-.project2 h5 {
+.project2 h5,
+.project4 h5 {
   color: white;
-  background: black;
   font-size: 200%;
   font-weight: 500;
   transform: translateY(0%);
@@ -56,6 +56,14 @@
 
 .portfolio-img{
   width: 100%;
+} */ 
+
+.card-img-top{
+  height: 150px;
+}
+
+.card{
+  margin: 10px;
 }
 
 

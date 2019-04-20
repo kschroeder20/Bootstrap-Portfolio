@@ -10,8 +10,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/scrollreveal"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
         <link href="assets/css/style-global.css" rel="stylesheet">
         <link href="assets/css/style-navbar-hero-jumbotron.css" rel="stylesheet">
@@ -112,7 +112,8 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-sm-12 d-flex justify-content-center">
-                <img class="kevin img-responsive" src="assets/images/kevinschroeder-portfolio.jpg" alt="Generic placeholder image">
+                <img class="kevin img-responsive" src="assets/images/kevinschroeder-portfolio.jpg"
+                    alt="Generic placeholder image">
             </div>
             <div class="col-md-6 col-sm-12">
                 <p class="about-me">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
@@ -137,39 +138,43 @@
                 <h1 class="display-4">Portfolio</h1>
             </div>
             <hr>
-            <div id="carouselExampleIndicators" class="carousel slide col-10 offset-1" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="https://github.com/kschroeder20/Word-Guess-Game"><img class="d-block w-100 portfolio-img"
-                                src="assets/images/RapperHangman.png" alt="Rapper Hangman"> </a>
-                        <div class="carousel-caption d-md-block project1">
-                            <h5 class="project1">Rapper Hangman</h5>
-                            <p class="project1">Uses JS, Bootsrap, HTML, & CSS</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <a href="https://github.com/kschroeder20/harry-potter-game"><img class="d-block w-100 portfolio-img"
-                                src="assets/images/Screen Shot 2019-03-25 at 8.44.55 AM.png" alt="Harry Potter RPG">
-                        </a>
-                        <div class="carousel-caption d-md-block project2">
-                            <h5>Harry Potter RPG</h5>
-                            <p>Uses JS, jQuery, Bootsrap, HTML, & CSS</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="https://github.com/kschroeder20/TriviaGame"><img class="d-block w-100 portfolio-img"
-                                src="assets/images/triviabackground.png" alt="Third project">
-                            <div class="carousel-caption d-md-block project3">
-                                <h5>NBA Trivia</h5>
-                                <p>Uses jQuery, JS, Bootsrap, and CSS</p>
-                            </div>
-                    </div>
+            <div class = "row justify-content-center">
+                <div class="card col-lg-3 col-md-4 col-sm-12" style="width: 18rem;">
+                <a href="https://github.com/kschroeder20/Word-Guess-Game"><img src="./assets/images/Rapper-Hangman.png"
+                        class="card-img-top" alt="Rapper Hangman"></a>
+                <div class="card-body">
+                    <p class="card-text">Uses JS, Bootsrap, HTML, & CSS to create a hangman-style word guessing game</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-12" style="width: 18rem;">
+                <a href="https://github.com/kschroeder20/harry-potter-game"><img
+                        src="./assets/images/Harry-Potter-Game.png" class="card-img-top" alt="Harry Potter RPG"></a>
+                <div class="card-body">
+                    <p class="card-text">Uses JS, jQuery, Bootsrap, HTML, & CSS to make a Harry Potter-themed RPG game</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-12" style="width: 18rem;">
+                <a href="https://github.com/kschroeder20/TriviaGame"><img src="./assets/images/NBA-Trivia-Game.png"
+                        class="card-img-top" alt="NBA Trivia"></a>
+                <div class="card-body">
+                    <p class="card-text">Uses jQuery, JS, Bootsrap, & CSS to make a NBA trivia game </p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-12" style="width: 18rem;">
+                <a href="https://github.com/kschroeder20/NBA-Gifs"><img src="./assets/images/nba-gif-project.png"
+                        class="card-img-top" alt="NBA Gif Project"></a>
+                <div class="card-body">
+                    <p class="card-text">Uses the GIPHY API, jQuery, JS, Bootsrap, and CSS to autopopulate NBA Gifs based on the user's search query</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-12" style="width: 18rem;">
+                <a href="http://fomonomo.site/"><img src="./assets/images/FOMO.png"
+                        class="card-img-top" alt="FOMO App"></a>
+                <div class="card-body">
+                    <p class="card-text">Uses Materialize, CSS, JS, jQuery, Axios, and Firebase to create a customizable app that catches the user up on all of the trending topics that they care about</p>
+                </div>
+            </div>
+            </div>
                 </div>
                 <!--For Menu Link-->
                 <span id="contact"></span>
@@ -213,7 +218,8 @@
                 </div>
                 <div class="form-group row form-content">
                     <div class="col-sm-12">
-                        <textarea class="form-control" id="formControlTextarea1" rows="4" placeholder="Message"></textarea>
+                        <textarea class="form-control" id="formControlTextarea1" rows="4"
+                            placeholder="Message"></textarea>
                     </div>
                 </div>
             </form>
@@ -251,8 +257,8 @@
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
         window.sr = ScrollReveal();
@@ -290,7 +296,7 @@
 
         });
         sr.reveal(
-            '.service-info p, .service-info h3,form, .kevin,.connect,.contact-me, carousel-inner, #carouselExampleIndicators', {
+            '.service-info p, .service-info h3,form, .kevin,.connect,.contact-me, .card', {
                 duration: 1000,
                 origin: 'left',
                 distance: '300px',
@@ -312,7 +318,8 @@
         $(function () {
             // Smooth Scrolling
             $('a[href*="#"]:not([href="#"])').click(function () {
-                if ($(this).attr("href") == "#carouselExampleIndicators") return; //This is the exception
+                if ($(this).attr("href") == "#carouselExampleIndicators")
+            return; //This is the exception
                 if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
                     location.hostname == this.hostname) {
                     var target = $(this.hash);
